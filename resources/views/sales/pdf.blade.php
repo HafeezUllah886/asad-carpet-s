@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="card-header border-bottom-dashed">
-                                <img src="{{public_path('assets/images/header.png')}}" class="w-100">
+                                <img src="{{public_path('assets/images/header.jpg')}}" class="w-100">
                             </div>
                             <!--end card-header-->
                         </div><!--end col-->

@@ -96,6 +96,7 @@ class SalesController extends Controller
                         'refID'         => $ref,
                     ]
                 );
+                dashboard();
                 createStock($id, 0, $totalsize, $request->date, "Sold", $ref, $request->warehouse[$key]);
             }
             $total = $request->total;

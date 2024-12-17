@@ -142,6 +142,7 @@ class PurchaseController extends Controller
             {
                 throw new Exception('Please Select Atleast One Product');
             }
+            dashboard();
             DB::beginTransaction();
             foreach($purchase->details as $product)
             {

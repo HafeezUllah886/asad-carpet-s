@@ -38,7 +38,7 @@
                                     <table class="w-100">
                                         <tbody>
                                             <tr>
-                                                <td> <h2 class="p-0 m-0">MILLAT MACHINERY & SOLAR AGENCY</h2></td>
+                                                <td> <h2 class="p-0 m-0">{{projectName()}}</h2></td>
                                                 <td>
                                                     <h3>Payment Receiving Receipt</h3>
                                                     <p> <span class="text-muted text-uppercase fw-semibold mt-0 m-0 p-0">Receipt Ref # </span><span class="fs-14 m-0 p-0">{{$receiving->refID}}</span></p>

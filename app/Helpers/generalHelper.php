@@ -52,12 +52,12 @@ function getStock($id){
 
 function projectName()
 {
-    return "Nafis Carpet & Rugs";
+    return "Asad Carpets";
 }
 
 function projectShortName()
 {
-    return "NFS";
+    return "AC";
 }
 
 function getSize($length, $width) {
